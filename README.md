@@ -1,6 +1,3 @@
-# sample-lms-python
-
->>>>>>> 3a83d1f811a988ded4bcc27021e58724c0e3a8f9
 # 🚀 AI Learning Experience Platform (LXP)
 
 An AI-powered **Learning Experience Platform (LXP)** built with **FastAPI**, **Ollama (local LLM)**, **SQLite**, and **Bootstrap 5**.
