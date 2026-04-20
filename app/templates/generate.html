@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Generate Learning Path{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-7">
+    <h2 class="fw-bold mb-4"><i class="bi bi-compass me-2"></i>Generate Your Learning Path</h2>
+    <div class="card border-0 shadow-sm">
+      <div class="card-body p-4">
+        <form method="post" action="/generate" id="generateForm">
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Your Role</label>
+            <input type="text" name="role" class="form-control" required
+                   value="{{ profile.current_role if profile else '' }}"
+                   placeholder="e.g. Backend Developer" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Target Skill</label>
+            <input type="text" name="target_skill" class="form-control" required
+                   placeholder="e.g. Azure Machine Learning, Kubernetes" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Current Level</label>
+            <select name="level" class="form-select">
+              {% for lvl in ["beginner", "intermediate", "advanced"] %}
+                <option value="{{ lvl }}"
+                  {% if profile and profile.preferred_level == lvl %}selected{% endif %}>
+                  {{ lvl | capitalize }}
+                </option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">
+              <span id="btnText"><i class="bi bi-robot me-2"></i>Generate Path with AI</span>
+              <span id="btnSpinner" class="d-none">
+                <span class="spinner-border spinner-border-sm me-2"></span>Analysing skill gap&hellip;
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <p class="text-muted mt-3 text-center">
+      <i class="bi bi-info-circle me-1"></i>
+      AI analysis uses your local Ollama model. This may take 10&ndash;30 seconds.
+    </p>
+  </div>
+</div>
+{% endblock %}

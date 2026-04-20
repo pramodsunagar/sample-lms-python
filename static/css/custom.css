@@ -1,0 +1,49 @@
+:root {
+  --bs-primary: #0d6efd;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  letter-spacing: -0.5px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card-header {
+  border-radius: 12px 12px 0 0 !important;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+.progress {
+  border-radius: 99px;
+}
+
+.progress-bar {
+  border-radius: 99px;
+}
+
+/* Course card source badge colours */
+.badge-mslearn { background: #0078d4; }
+.badge-coursera { background: #0056d2; }
+.badge-google { background: #4285f4; }
+.badge-fcc { background: #0a0a23; }
+.badge-edx { background: #02262b; }
+
+/* Spinner overlay for generate form */
+#generateForm.loading button {
+  pointer-events: none;
+  opacity: 0.75;
+}

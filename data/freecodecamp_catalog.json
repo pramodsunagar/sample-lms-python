@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Responsive Web Design",
+    "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "source": "freeCodeCamp",
+    "level": "beginner",
+    "duration_hours": 300,
+    "description": "Learn HTML, CSS, and responsive design principles by building projects.",
+    "tags": [
+      "html",
+      "css",
+      "web design",
+      "frontend"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "JavaScript Algorithms and Data Structures",
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "source": "freeCodeCamp",
+    "level": "beginner",
+    "duration_hours": 300,
+    "description": "Master JavaScript fundamentals, ES6, data structures, and algorithms.",
+    "tags": [
+      "javascript",
+      "algorithms",
+      "data structures"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "Front End Development Libraries",
+    "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/",
+    "source": "freeCodeCamp",
+    "level": "intermediate",
+    "duration_hours": 300,
+    "description": "Bootstrap, jQuery, Sass, React, and Redux for frontend development.",
+    "tags": [
+      "react",
+      "redux",
+      "frontend",
+      "bootstrap"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Data Visualization",
+    "url": "https://www.freecodecamp.org/learn/data-visualization/",
+    "source": "freeCodeCamp",
+    "level": "intermediate",
+    "duration_hours": 300,
+    "description": "Create visualizations using D3.js libraries.",
+    "tags": [
+      "d3.js",
+      "data visualization",
+      "javascript"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Back End Development and APIs",
+    "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+    "source": "freeCodeCamp",
+    "level": "intermediate",
+    "duration_hours": 300,
+    "description": "Build REST APIs using Node.js, Express, and MongoDB.",
+    "tags": [
+      "nodejs",
+      "express",
+      "mongodb",
+      "api",
+      "backend"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Quality Assurance",
+    "url": "https://www.freecodecamp.org/learn/quality-assurance/",
+    "source": "freeCodeCamp",
+    "level": "intermediate",
+    "duration_hours": 300,
+    "description": "Test JavaScript apps with Chai and build a real-time messaging app.",
+    "tags": [
+      "testing",
+      "quality assurance",
+      "chai",
+      "nodejs"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Scientific Computing with Python",
+    "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+    "source": "freeCodeCamp",
+    "level": "beginner",
+    "duration_hours": 300,
+    "description": "Learn Python programming fundamentals for scientific computing.",
+    "tags": [
+      "python",
+      "data science",
+      "scientific computing"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "Data Analysis with Python",
+    "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+    "source": "freeCodeCamp",
+    "level": "intermediate",
+    "duration_hours": 300,
+    "description": "Analyze data using NumPy, Pandas, Matplotlib, and Seaborn.",
+    "tags": [
+      "python",
+      "data analysis",
+      "pandas",
+      "numpy"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Information Security",
+    "url": "https://www.freecodecamp.org/learn/information-security/",
+    "source": "freeCodeCamp",
+    "level": "intermediate",
+    "duration_hours": 300,
+    "description": "Learn information security concepts, penetration testing, and HelmetJS.",
+    "tags": [
+      "security",
+      "penetration testing",
+      "nodejs"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Machine Learning with Python",
+    "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+    "source": "freeCodeCamp",
+    "level": "intermediate",
+    "duration_hours": 300,
+    "description": "Learn machine learning with TensorFlow.",
+    "tags": [
+      "machine learning",
+      "python",
+      "tensorflow",
+      "ai"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "title": "CS50: Introduction to Computer Science",
+    "url": "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
+    "source": "edX",
+    "level": "beginner",
+    "duration_hours": 100,
+    "description": "Harvard's introduction to the intellectual enterprises of computer science.",
+    "tags": [
+      "computer science",
+      "algorithms",
+      "c",
+      "python",
+      "web"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "Introduction to Linux",
+    "url": "https://www.edx.org/course/introduction-to-linux",
+    "source": "edX",
+    "level": "beginner",
+    "duration_hours": 60,
+    "description": "Develop a good working knowledge of Linux using both the graphical interface and command line.",
+    "tags": [
+      "linux",
+      "bash",
+      "sysadmin",
+      "devops"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "DevOps, DataOps, MLOps",
+    "url": "https://www.edx.org/course/devops-dataops-mlops-duke",
+    "source": "edX",
+    "level": "intermediate",
+    "duration_hours": 16,
+    "description": "Learn DevOps, DataOps, and MLOps with practical cloud projects.",
+    "tags": [
+      "devops",
+      "mlops",
+      "dataops",
+      "cloud",
+      "ci/cd"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Introduction to Cloud Computing",
+    "url": "https://www.edx.org/course/introduction-to-cloud-computing-2",
+    "source": "edX",
+    "level": "beginner",
+    "duration_hours": 15,
+    "description": "Develop foundational knowledge about cloud computing and its key technologies.",
+    "tags": [
+      "cloud computing",
+      "aws",
+      "azure",
+      "gcp"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "Python for Data Science",
+    "url": "https://www.edx.org/professional-certificate/uc-san-diegox-python-for-data-science",
+    "source": "edX",
+    "level": "intermediate",
+    "duration_hours": 48,
+    "description": "Learn Python and data science basics using real-world datasets.",
+    "tags": [
+      "python",
+      "data science",
+      "pandas",
+      "machine learning"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Agile Software Development",
+    "url": "https://www.edx.org/course/agile-software-development",
+    "source": "edX",
+    "level": "beginner",
+    "duration_hours": 24,
+    "description": "Understand agile principles and apply scrum methodologies.",
+    "tags": [
+      "agile",
+      "scrum",
+      "software development",
+      "project management"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "Cybersecurity Fundamentals",
+    "url": "https://www.edx.org/course/cybersecurity-fundamentals",
+    "source": "edX",
+    "level": "beginner",
+    "duration_hours": 90,
+    "description": "Build understanding of cybersecurity threats and defenses.",
+    "tags": [
+      "cybersecurity",
+      "security",
+      "networking"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "Data Science: Machine Learning",
+    "url": "https://www.edx.org/course/data-science-machine-learning",
+    "source": "edX",
+    "level": "intermediate",
+    "duration_hours": 25,
+    "description": "Learn popular machine learning algorithms with HarvardX.",
+    "tags": [
+      "machine learning",
+      "data science",
+      "r",
+      "statistics"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Introduction to Kubernetes",
+    "url": "https://www.edx.org/course/introduction-to-kubernetes",
+    "source": "edX",
+    "level": "beginner",
+    "duration_hours": 14,
+    "description": "Learn how to containerize and deploy applications with Kubernetes.",
+    "tags": [
+      "kubernetes",
+      "containers",
+      "docker",
+      "devops"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "Software Engineering: Introduction",
+    "url": "https://www.edx.org/course/software-engineering-introduction",
+    "source": "edX",
+    "level": "beginner",
+    "duration_hours": 6,
+    "description": "Discover software engineering practices and how they are applied to real-world projects.",
+    "tags": [
+      "software engineering",
+      "design patterns",
+      "testing",
+      "agile"
+    ],
+    "prerequisites": "No prerequisites required"
+  }
+]

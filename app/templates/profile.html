@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}My Profile{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-7">
+    <h2 class="fw-bold mb-4"><i class="bi bi-person-circle me-2"></i>My Profile</h2>
+    {% if success %}
+      <div class="alert alert-success">{{ success }}</div>
+    {% endif %}
+    {% if error %}
+      <div class="alert alert-danger">{{ error }}</div>
+    {% endif %}
+    <div class="card border-0 shadow-sm">
+      <div class="card-body p-4">
+        <h5 class="fw-bold mb-1">{{ user.full_name }}</h5>
+        <p class="text-muted mb-4">{{ user.email }}</p>
+        <form method="post" action="/profile">
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Current Role</label>
+            <input type="text" name="current_role" class="form-control"
+                   value="{{ profile.current_role if profile else '' }}" placeholder="e.g. Software Engineer" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Target Role</label>
+            <input type="text" name="target_role" class="form-control"
+                   value="{{ profile.target_role if profile else '' }}" placeholder="e.g. ML Engineer" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Skills (comma-separated)</label>
+            <input type="text" name="skills" class="form-control"
+                   value="{{ profile.skills | join(', ') if profile and profile.skills else '' }}"
+                   placeholder="Python, Azure, Docker" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Preferred Learning Level</label>
+            <select name="preferred_level" class="form-select">
+              {% for lvl in ["beginner", "intermediate", "advanced"] %}
+                <option value="{{ lvl }}" {% if profile and profile.preferred_level == lvl %}selected{% endif %}>
+                  {{ lvl | capitalize }}
+                </option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary"><i class="bi bi-save me-1"></i>Save Profile</button>
+            <a href="/generate" class="btn btn-success"><i class="bi bi-compass me-1"></i>Generate Path</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}AI LXP – Personalized Learning Journeys{% endblock %}
+{% block content %}
+<div class="row justify-content-center mt-5">
+  <div class="col-lg-8 text-center">
+    <div class="display-1 text-primary mb-3"><i class="bi bi-mortarboard-fill"></i></div>
+    <h1 class="fw-bold mb-3">Your AI-Powered Learning Journey</h1>
+    <p class="lead text-muted mb-4">
+      Tell us your role and the skill you want to master. Our AI will build a personalized
+      learning path using Microsoft Learn, Coursera, Google Skills Boost, freeCodeCamp, and edX &mdash;
+      all free.
+    </p>
+    {% if user_id %}
+      <a href="/generate" class="btn btn-primary btn-lg me-2"><i class="bi bi-compass me-2"></i>Generate My Learning Path</a>
+      <a href="/dashboard" class="btn btn-outline-primary btn-lg">My Dashboard</a>
+    {% else %}
+      <a href="/register" class="btn btn-primary btn-lg me-2"><i class="bi bi-person-plus me-2"></i>Get Started Free</a>
+      <a href="/login" class="btn btn-outline-primary btn-lg">Log In</a>
+    {% endif %}
+  </div>
+</div>
+
+<div class="row g-4 mt-5">
+  <div class="col-md-4">
+    <div class="card h-100 border-0 shadow-sm text-center p-4">
+      <div class="fs-1 text-primary mb-3"><i class="bi bi-robot"></i></div>
+      <h5 class="fw-bold">AI-Powered Curation</h5>
+      <p class="text-muted">Ollama LLM analyzes your skill gap and curates the best courses for your role.</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100 border-0 shadow-sm text-center p-4">
+      <div class="fs-1 text-success mb-3"><i class="bi bi-collection"></i></div>
+      <h5 class="fw-bold">5 Free Sources</h5>
+      <p class="text-muted">Microsoft Learn, Coursera, Google Skills Boost, freeCodeCamp, and edX &mdash; all free.</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100 border-0 shadow-sm text-center p-4">
+      <div class="fs-1 text-warning mb-3"><i class="bi bi-graph-up-arrow"></i></div>
+      <h5 class="fw-bold">Track Your Progress</h5>
+      <p class="text-muted">Save learning paths and mark courses as in-progress or complete on your dashboard.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Google Cloud Fundamentals: Core Infrastructure",
+    "url": "https://www.cloudskillsboost.google/course_templates/60",
+    "source": "Google Skills Boost",
+    "level": "beginner",
+    "duration_hours": 8,
+    "description": "Introduction to Google Cloud infrastructure and core services.",
+    "tags": [
+      "gcp",
+      "cloud",
+      "infrastructure"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "Getting Started with Google Kubernetes Engine",
+    "url": "https://www.cloudskillsboost.google/course_templates/2",
+    "source": "Google Skills Boost",
+    "level": "intermediate",
+    "duration_hours": 9,
+    "description": "Deploy, manage, and scale containerized applications using GKE.",
+    "tags": [
+      "kubernetes",
+      "gke",
+      "containers",
+      "devops"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "source": "Google Skills Boost",
+    "level": "beginner",
+    "duration_hours": 15,
+    "description": "Google's fast-paced, practical introduction to machine learning.",
+    "tags": [
+      "machine learning",
+      "tensorflow",
+      "ai",
+      "ml"
+    ],
+    "prerequisites": "No prerequisites required"
+  },
+  {
+    "title": "TensorFlow: Data and Deployment Specialization",
+    "url": "https://www.cloudskillsboost.google/course_templates/17",
+    "source": "Google Skills Boost",
+    "level": "intermediate",
+    "duration_hours": 16,
+    "description": "Deploy ML models with TensorFlow in various environments.",
+    "tags": [
+      "tensorflow",
+      "ml",
+      "deployment",
+      "ai"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Architecting with Google Compute Engine",
+    "url": "https://www.cloudskillsboost.google/course_templates/19",
+    "source": "Google Skills Boost",
+    "level": "intermediate",
+    "duration_hours": 20,
+    "description": "Design and build infrastructure on Google Compute Engine.",
+    "tags": [
+      "gcp",
+      "compute engine",
+      "cloud architecture"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Preparing for Google Cloud Certification: Cloud DevOps Engineer",
+    "url": "https://www.cloudskillsboost.google/paths/20",
+    "source": "Google Skills Boost",
+    "level": "advanced",
+    "duration_hours": 24,
+    "description": "Prepare for the Professional Cloud DevOps Engineer certification.",
+    "tags": [
+      "devops",
+      "sre",
+      "gcp",
+      "cicd"
+    ],
+    "prerequisites": "Intermediate level knowledge required"
+  },
+  {
+    "title": "Security in Google Cloud",
+    "url": "https://www.cloudskillsboost.google/course_templates/21",
+    "source": "Google Skills Boost",
+    "level": "intermediate",
+    "duration_hours": 14,
+    "description": "Implement security controls and best practices in Google Cloud.",
+    "tags": [
+      "security",
+      "gcp",
+      "iam",
+      "cloud security"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  },
+  {
+    "title": "Data Engineering on Google Cloud",
+    "url": "https://www.cloudskillsboost.google/course_templates/25",
+    "source": "Google Skills Boost",
+    "level": "intermediate",
+    "duration_hours": 30,
+    "description": "Build data pipelines with BigQuery, Pub/Sub, and Dataflow.",
+    "tags": [
+      "data engineering",
+      "bigquery",
+      "dataflow",
+      "gcp"
+    ],
+    "prerequisites": "Basic knowledge in the subject area recommended"
+  }
+]
