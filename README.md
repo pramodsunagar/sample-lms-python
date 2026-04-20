@@ -349,8 +349,4 @@ MIT License
 
 Developed as an AI-powered learning platform accelerator using FastAPI and local LLM orchestration.
 
-<<<<<<< HEAD
 ---
-=======
----
->>>>>>> 3a83d1f811a988ded4bcc27021e58724c0e3a8f9
