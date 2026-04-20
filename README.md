@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # sample-lms-python
 
 >>>>>>> 3a83d1f811a988ded4bcc27021e58724c0e3a8f9
