@@ -43,4 +43,50 @@
     </div>
   </div>
 </div>
+
+<!-- Azure Virtual Training Days Ticker -->
+<div class="row mt-5">
+  <div class="col-12">
+    <div class="card border-0 shadow-sm">
+      <div class="card-header bg-primary text-white d-flex align-items-center gap-2 py-3">
+        <i class="bi bi-microsoft fs-5"></i>
+        <span class="fw-semibold fs-6">Upcoming Microsoft Azure Virtual Training Days</span>
+        {% if user_id %}
+        <span class="badge bg-white text-primary ms-auto">Personalised for your skills</span>
+        {% else %}
+        <a href="/login" class="badge bg-white text-primary ms-auto text-decoration-none">Log in to personalise</a>
+        {% endif %}
+      </div>
+      <div class="card-body p-0">
+        <div class="ticker-wrap">
+          <div class="ticker-inner" id="azureTicker">
+            {% for event in azure_events %}
+            <div class="ticker-item">
+              <span class="ticker-date badge bg-primary-subtle text-primary-emphasis me-2">{{ event.date }}</span>
+              <a href="{{ event.url }}" target="_blank" rel="noopener noreferrer" class="ticker-link">
+                <i class="bi bi-calendar-event me-1"></i>{{ event.title }}
+              </a>
+              <span class="ticker-register ms-2">
+                <a href="{{ event.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary py-0 px-2">Register &rarr;</a>
+              </span>
+            </div>
+            {% endfor %}
+            {# Duplicate items for seamless infinite loop #}
+            {% for event in azure_events %}
+            <div class="ticker-item">
+              <span class="ticker-date badge bg-primary-subtle text-primary-emphasis me-2">{{ event.date }}</span>
+              <a href="{{ event.url }}" target="_blank" rel="noopener noreferrer" class="ticker-link">
+                <i class="bi bi-calendar-event me-1"></i>{{ event.title }}
+              </a>
+              <span class="ticker-register ms-2">
+                <a href="{{ event.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary py-0 px-2">Register &rarr;</a>
+              </span>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
