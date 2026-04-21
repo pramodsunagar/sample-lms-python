@@ -37,7 +37,7 @@ async def home(request: Request, db: Session = Depends(get_db)):
         user_profile = db.query(UserProfile).filter(UserProfile.user_id == user_id).first()
         if user_profile and user_profile.skills_owned:
             skills_owned = user_profile.skills_owned
-    azure_events = get_relevant_events(skills_owned)
+    azure_events = await get_relevant_events(skills_owned)
     return templates.TemplateResponse(
         "index.html",
         {"request": request, "user_id": user_id, "azure_events": azure_events},
